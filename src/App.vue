@@ -1,8 +1,10 @@
 <script setup>
-import MarkdownEditPage from './components/MarkdownEditPage.vue'
+import MarkdownEditPage from "./components/MarkdownEditPage.vue";
+import AIChatDrawer from "./components/AIChatDrawer.vue";
 </script>
 
 <template>
+  <AIChatDrawer />
   <MarkdownEditPage />
 </template>
 
